@@ -1,7 +1,9 @@
-package NURE_BPID_VIGENERE;
+package ua.nure.kostenko.bpid.vigenere;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
@@ -49,8 +51,18 @@ public class MainWindow extends JFrame {
                 checkAbilityToEncrypDecryptActions();
             }
         });
-        buttonEncrypt.addActionListener((e) -> encryptAction());
-        buttonDecrypt.addActionListener((e) -> decryptAction());
+        buttonEncrypt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                encryptAction();
+            }
+        });
+        buttonDecrypt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                decryptAction();
+            }
+        });
     }
 
     private void encryptAction() {

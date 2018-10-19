@@ -1,4 +1,4 @@
-package NURE_BPID_VIGENERE;
+package ua.nure.kostenko.bpid.vigenere;
 
 /**
  * Created by Alexander on 02.04.2015.
