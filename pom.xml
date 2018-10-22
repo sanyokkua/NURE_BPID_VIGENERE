@@ -16,7 +16,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ua.nure.kostenko.bpid.vigenere.MainWindow</mainClass>
+                            <mainClass>com.kostenko.vigenere.MainWindow</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -51,7 +51,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>ua.nure.kostenko.bpid.vigenere.MainWindow</mainClass>
+                            <mainClass>com.kostenko.vigenere.MainWindow</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

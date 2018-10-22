@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Main-Class: ua.nure.kostenko.bpid.vigenere.MainWindow
+Main-Class: com.kostenko.vigenere.MainWindow

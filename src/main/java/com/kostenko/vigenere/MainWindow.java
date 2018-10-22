@@ -1,4 +1,4 @@
-package ua.nure.kostenko.bpid.vigenere;
+package com.kostenko.vigenere;
 
 import javax.swing.*;
 import java.awt.*;
